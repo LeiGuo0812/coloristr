@@ -10,7 +10,8 @@ discrete_palettes <- list(
   tidyplots.metro = c("#4DACD6","#4FAE62","#F6C54D","#E37D46","#C02D45"),
   tidyplots.okabeito = c("#E69F00","#56B4E9","#009E73","#F0E442","#0072B2","#D55E00","#CC79A7"),
   tidyplots.seaside = c("#8ecae6","#219ebc","#023047","#ffb703","#fb8500"),
-  nature.cyclone = c("#D75425","#E6b532","#7E2f8C","#52BCEC","#A21D2F","#73AA43","#2B2A76")
+  nature.cyclone = c("#D75425","#E6b532","#7E2f8C","#52BCEC","#A21D2F","#73AA43","#2B2A76"),
+  sxs.vintage  = c("#5D8CC2", "#F1BC3A", "#E7673A", "#50A07D", "#0D294E")
 )
 
 #' @keywords internal
