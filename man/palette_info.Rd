@@ -7,7 +7,9 @@
 \format{
 A data frame with columns:
 \describe{
-  \item{palette_name}{Name of the palette}
+  \item{palette_name}{Full name of the palette (source.name)}
+  \item{source}{Source/origin of the palette}
+  \item{name}{Name of the palette}
   \item{type}{Type of the palette: discrete, continuous, or diverging}
   \item{n_colors}{Number of colors in the palette}
   \item{colors}{List column containing the color hex codes}

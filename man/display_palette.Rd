@@ -7,7 +7,7 @@
 display_palette(palette_name, n = NULL)
 }
 \arguments{
-\item{palette_name}{Character, name of the palette}
+\item{palette_name}{Character, name of the palette (can be either "name" or "source.name" format)}
 
 \item{n}{Integer, number of colors to display (only for continuous and diverging palettes)}
 }
@@ -15,9 +15,11 @@ display_palette(palette_name, n = NULL)
 Display color palette
 }
 \examples{
-# Show a discrete palette
+# Show a discrete palette using either naming convention
 display_palette("friendly")
+display_palette("tidyplots.friendly")
 
 # Show a continuous palette with 10 colors
 display_palette("viridis", n = 10)
+display_palette("tidyplots.viridis", n = 10)
 }

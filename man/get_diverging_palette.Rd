@@ -7,7 +7,7 @@
 get_diverging_palette(palette_name, n = 100, reverse = FALSE)
 }
 \arguments{
-\item{palette_name}{Character, name of the palette}
+\item{palette_name}{Character, name of the palette (can be either "name" or "source.name" format)}
 
 \item{n}{Integer, number of colors to return}
 
@@ -20,5 +20,6 @@ Character vector of colors
 Get diverging palette
 }
 \examples{
-get_diverging_palette("BuRd", n = 100)
+get_diverging_palette("spectral", n = 100)
+get_diverging_palette("tidyplots.spectral", n = 100)
 }

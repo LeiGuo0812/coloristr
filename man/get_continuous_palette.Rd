@@ -7,7 +7,7 @@
 get_continuous_palette(palette_name, n = 100, reverse = FALSE)
 }
 \arguments{
-\item{palette_name}{Character, name of the palette}
+\item{palette_name}{Character, name of the palette (can be either "name" or "source.name" format)}
 
 \item{n}{Integer, number of colors to return}
 
@@ -21,4 +21,5 @@ Get continuous palette
 }
 \examples{
 get_continuous_palette("viridis", n = 100)
+get_continuous_palette("tidyplots.viridis", n = 100)
 }

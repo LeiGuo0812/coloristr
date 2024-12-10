@@ -4,10 +4,14 @@
 \alias{scale_fill_continuous_pal}
 \title{Scale fill for continuous palettes}
 \usage{
-scale_fill_continuous_pal(palette_name = "inferno", reverse = FALSE, ...)
+scale_fill_continuous_pal(
+  palette_name = "tidyplots.inferno",
+  reverse = FALSE,
+  ...
+)
 }
 \arguments{
-\item{palette_name}{Character, name of the palette}
+\item{palette_name}{Character, name of the palette (can be either "name" or "source.name" format)}
 
 \item{reverse}{Logical, whether to reverse the palette}
 

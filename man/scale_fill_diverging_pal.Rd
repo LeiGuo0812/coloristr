@@ -5,14 +5,14 @@
 \title{Scale fill for diverging palettes}
 \usage{
 scale_fill_diverging_pal(
-  palette_name = "spectral",
+  palette_name = "tidyplots.spectral",
   midpoint = 0,
   reverse = FALSE,
   ...
 )
 }
 \arguments{
-\item{palette_name}{Character, name of the palette}
+\item{palette_name}{Character, name of the palette (can be either "name" or "source.name" format)}
 
 \item{midpoint}{Numeric, the midpoint for diverging scales}
 

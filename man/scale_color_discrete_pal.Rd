@@ -4,10 +4,14 @@
 \alias{scale_color_discrete_pal}
 \title{Scale color for discrete palettes}
 \usage{
-scale_color_discrete_pal(palette_name = "friendly", reverse = FALSE, ...)
+scale_color_discrete_pal(
+  palette_name = "tidyplots.friendly",
+  reverse = FALSE,
+  ...
+)
 }
 \arguments{
-\item{palette_name}{Character, name of the palette}
+\item{palette_name}{Character, name of the palette (can be either "name" or "source.name" format)}
 
 \item{reverse}{Logical, whether to reverse the palette}
 
@@ -21,4 +25,9 @@ library(ggplot2)
 ggplot(mtcars, aes(wt, mpg, color = factor(cyl))) +
   geom_point() +
   scale_color_discrete_pal("friendly")
+
+# Or use the full name
+ggplot(mtcars, aes(wt, mpg, color = factor(cyl))) +
+  geom_point() +
+  scale_color_discrete_pal("tidyplots.friendly")
 }

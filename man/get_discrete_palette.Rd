@@ -7,7 +7,7 @@
 get_discrete_palette(palette_name, n = NULL, reverse = FALSE)
 }
 \arguments{
-\item{palette_name}{Character, name of the palette}
+\item{palette_name}{Character, name of the palette (can be either "name" or "source.name" format)}
 
 \item{n}{Integer, number of colors to return}
 
@@ -21,4 +21,5 @@ Get discrete palette
 }
 \examples{
 get_discrete_palette("friendly", n = 4)
+get_discrete_palette("tidyplots.friendly", n = 4)
 }
