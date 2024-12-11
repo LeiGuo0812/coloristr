@@ -14,7 +14,7 @@ discrete_palettes <- list(
   sxs.vintage  = c("#5D8CC2", "#F1BC3A", "#E7673A", "#50A07D", "#0D294E"),
   muke.collapse = c("#13366B","#043D45","#003D74","#0796B5","#4DA280","#406C94","#3E441C","#CC5D20","#E1C199","#FED0DA","#FE5E10","#F8C6B5","#CB9746","#E84F8C"),
   hdz.public = c("#003153","#002FA7","#008C8C","#81D8D0","#F9DC24","#E85827","#B05923","#8F4B28","#800020","#4C0009"),
-  akun.ukiyo = c("#E86254","#EF8A46","#F8AA59","#FFD06E","#FEE6B5","#ABDCE0","#73BCD5","#528FAC","#386795","#1F466F"),
+  akun.ukiyo = c("#E86254","#EF8A46","#F8AA59","#FFD06E","#FEE6B5","#ABDCE0","#73BCD5","#528FAC","#386795","#1F466F")
 )
 
 #' @keywords internal
