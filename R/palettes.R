@@ -15,7 +15,8 @@ discrete_palettes <- list(
   muke.collapse = c("#13366B","#043D45","#003D74","#0796B5","#4DA280","#406C94","#3E441C","#CC5D20","#E1C199","#FED0DA","#FE5E10","#F8C6B5","#CB9746","#E84F8C"),
   hdz.public = c("#003153","#002FA7","#008C8C","#81D8D0","#F9DC24","#E85827","#B05923","#8F4B28","#800020","#4C0009"),
   akun.ukiyo = c("#1F466F","#386795","#528FAC","#73BCD5","#ABDCE0","#FEE6B5","#FFD06E","#F8AA59","#EF8A46","#E86254"),
-  xhs.sunset = c("#4D6097","#5F6FA7","#767FB5","#9594C4","#B7A5CD","#DAB4CC","#F0C5C3","#FBCEA0","#F1AE89","#F09771","#E3825C","#D46C49","#C55635","#B44021","#AF3D21")
+  xhs.sunset = c("#4D6097","#5F6FA7","#767FB5","#9594C4","#B7A5CD","#DAB4CC","#F0C5C3","#FBCEA0","#F1AE89","#F09771","#E3825C","#D46C49","#C55635","#B44021","#AF3D21"),
+  loyel.fc = c("#466D7C","#76894B","#D7D0AC","#DE9F37","#9C111D")
 )
 
 #' @keywords internal
