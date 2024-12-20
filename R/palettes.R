@@ -17,6 +17,7 @@ discrete_palettes <- list(
   nature.vivid_light = c("#EFF7E8","#E3EFFB","#FBEDE3","#F4E2EE","#FDEDED"),
   nature.vibrant = c("#0ddbf5","#1d9bf7","#8386fc","#303cf9","#fe5357","#fd7c1a","#ffbd15","#fcff07"),
   nature.patoral = c("#4292c9","#a0c9e5","#35a153","#afdd8b","#f26a11","#fe9376","#817cb9","#bcdddd"),
+  nature.pastel = c("#F4B7B7", "#FFDAC8", "#FFF3D6", "#D6E7D6", "#D6E7F4"),
   sxs.vintage  = c("#5D8CC2", "#F1BC3A", "#E7673A", "#50A07D", "#0D294E"),
   muke.collapse = c("#13366B","#043D45","#003D74","#0796B5","#4DA280","#406C94","#3E441C","#CC5D20","#E1C199","#FED0DA","#FE5E10","#F8C6B5","#CB9746","#E84F8C"),
   hdz.public = c("#003153","#002FA7","#008C8C","#81D8D0","#F9DC24","#E85827","#B05923","#8F4B28","#800020","#4C0009"),
