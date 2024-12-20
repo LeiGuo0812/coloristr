@@ -11,12 +11,20 @@ discrete_palettes <- list(
   tidyplots.okabeito = c("#E69F00","#56B4E9","#009E73","#F0E442","#0072B2","#D55E00","#CC79A7"),
   tidyplots.seaside = c("#8ecae6","#219ebc","#023047","#ffb703","#fb8500"),
   nature.cyclone = c("#D75425","#E6b532","#7E2f8C","#52BCEC","#A21D2F","#73AA43","#2B2A76"),
+  nature.breeze = c("#E9212C","#01844F","#7195C5","#414986"),
+  nature.breeze_light = c("#FCE8DD","#D2E7D4","#D0D8EB","#C2BDDB"),
+  nature.vivid = c("#198E5C","#5C8DC7","#EF7F29","#A64294","#EC050E"),
+  nature.vivid_light = c("#EFF7E8","#E3EFFB","#FBEDE3","#F4E2EE","#FDEDED"),
+  nature.vibrant = c("#0ddbf5","#1d9bf7","#8386fc","#303cf9","#fe5357","#fd7c1a","#ffbd15","#fcff07"),
+  nature.patoral = c("#4292c9","#a0c9e5","#35a153","#afdd8b","#f26a11","#fe9376","#817cb9","#bcdddd"),
   sxs.vintage  = c("#5D8CC2", "#F1BC3A", "#E7673A", "#50A07D", "#0D294E"),
   muke.collapse = c("#13366B","#043D45","#003D74","#0796B5","#4DA280","#406C94","#3E441C","#CC5D20","#E1C199","#FED0DA","#FE5E10","#F8C6B5","#CB9746","#E84F8C"),
   hdz.public = c("#003153","#002FA7","#008C8C","#81D8D0","#F9DC24","#E85827","#B05923","#8F4B28","#800020","#4C0009"),
   akun.ukiyo = c("#1F466F","#386795","#528FAC","#73BCD5","#ABDCE0","#FEE6B5","#FFD06E","#F8AA59","#EF8A46","#E86254"),
   xhs.sunset = c("#4D6097","#5F6FA7","#767FB5","#9594C4","#B7A5CD","#DAB4CC","#F0C5C3","#FBCEA0","#F1AE89","#F09771","#E3825C","#D46C49","#C55635","#B44021","#AF3D21"),
-  loyel.fc = c("#466D7C","#76894B","#D7D0AC","#DE9F37","#9C111D")
+  loyel.fc = c("#466D7C","#76894B","#D7D0AC","#DE9F37","#9C111D"),
+  ggthemes.Jewel_Bright = c("#EB1E2CFF", "#FD6F30FF", "#F9A729FF", "#F9D23CFF", "#5FBB68FF", "#64CDCCFF", "#91DCEAFF", "#A4A4D5FF", "#BBC9E5FF"),
+  ggthemes.Zissou1Continuous = c("#3A9AB2FF", "#6FB2C1FF", "#91BAB6FF", "#A5C2A3FF", "#BDC881FF", "#DCCB4EFF", "#E3B710FF", "#E79805FF", "#EC7A05FF", "#EF5703FF", "#F11B00FF")
 )
 
 #' @keywords internal
@@ -30,7 +38,8 @@ continuous_palettes <- list(
   tidyplots.turbo = c("#30123BFF","#372365FF","#3D3489FF","#4147AEFF","#4456C8FF","#4669E0FF","#4777EFFF","#4688FBFF","#4197FFFF","#38A5FBFF","#2CB7F0FF","#22C4E3FF","#1AD3D1FF","#18DDC2FF","#1DE7B2FF","#29EFA2FF","#3DF58CFF","#53FA79FF","#69FD66FF","#83FF51FF","#98FE43FF","#AAFB39FF","#BAF635FF","#CBED34FF","#D9E436FF","#E4DA38FF","#F0CC3AFF","#F7C13AFF","#FCB136FF","#FEA230FF","#FE8F28FF","#FB7D21FF","#F56918FF","#EF5911FF","#E74A0CFF","#DD3C08FF","#D23105FF","#C32503FF","#B51C01FF","#A31301FF","#910B01FF","#7A0403FF"),
   tidyplots.viridis = c("#440154FF","#460A5DFF","#471264FF","#481B6DFF","#482374FF","#472C7AFF","#46337FFF","#443A83FF","#424186FF","#3F4889FF","#3C508BFF","#39568CFF","#365D8DFF","#33638DFF","#306A8EFF","#2D708EFF","#2B758EFF","#297B8EFF","#26818EFF","#24878EFF","#228D8DFF","#20928CFF","#1F988BFF","#1F9F88FF","#20A486FF","#24AA83FF","#29AF7FFF","#31B57BFF","#3BBB75FF","#45C06FFF","#53C569FF","#5EC962FF","#6ECE58FF","#7BD250FF","#8AD647FF","#9CD93CFF","#AADC32FF","#BDDF26FF","#CCE11EFF","#DEE318FF","#EDE51BFF","#FDE725FF"),
   akun.ukiyo = c("#1F466F","#386795","#528FAC","#73BCD5","#ABDCE0","#FEE6B5","#FFD06E","#F8AA59","#EF8A46","#E86254"),
-  xhs.sunset = c("#4D6097","#5F6FA7","#767FB5","#9594C4","#B7A5CD","#DAB4CC","#F0C5C3","#FBCEA0","#F1AE89","#F09771","#E3825C","#D46C49","#C55635","#B44021","#AF3D21")
+  xhs.sunset = c("#4D6097","#5F6FA7","#767FB5","#9594C4","#B7A5CD","#DAB4CC","#F0C5C3","#FBCEA0","#F1AE89","#F09771","#E3825C","#D46C49","#C55635","#B44021","#AF3D21"),
+  ggthemes.Zissou1Continuous = c("#3A9AB2FF", "#6FB2C1FF", "#91BAB6FF", "#A5C2A3FF", "#BDC881FF", "#DCCB4EFF", "#E3B710FF", "#E79805FF", "#EC7A05FF", "#EF5703FF", "#F11B00FF")
 )
 
 #' @keywords internal
@@ -42,7 +51,8 @@ diverging_palettes <- list(
   tidyplots.icefire = c("#b7e3d9","#a9d9d6","#98cdd2","#8ac4d0","#72b6ce","#63adcd","#55a3cd","#4394ce","#3987cf","#377cd0","#3f69c9","#465ebe","#4954b0","#474792","#42407b","#3c3a69","#323050","#2c2b42","#272636","#212028","#1f1e21","#201e1e","#261e1f","#332023","#3d2228","#4a252e","#5c2935","#6d2b3b","#7b2d40","#932e44","#a22f44","#b33341","#c53c3c","#d24737","#da5334","#e66734","#eb753a","#ef8445","#f39a5f","#f7ab75","#fab887","#fecea5"),
   tidyplots.spectral = c("#5b53a4","#525fa9","#486cb0","#3f77b5","#3389bd","#3d95b8","#47a0b3","#58b2ac","#64c0a6","#71c6a5","#86cfa5","#94d4a4","#a2d9a4","#b5e1a2","#c3e79f","#cfec9d","#e1f399","#e9f69d","#eef8a4","#f6fbb0","#fcfeba","#fffdbc","#fff7b2","#feeda1","#fee797","#fee08b","#fed27f","#fdc776","#fdbd6d","#fdad60","#fba05b","#f99153","#f67f4b","#f47044","#ef6645","#e55749","#df4e4b","#d9444d","#cb334d","#be254a","#b41947","#a20643"),
   akun.ukiyo = c("#1F466F","#386795","#528FAC","#73BCD5","#ABDCE0","#FEE6B5","#FFD06E","#F8AA59","#EF8A46","#E86254"),
-  xhs.sunset = c("#4D6097","#5F6FA7","#767FB5","#9594C4","#B7A5CD","#DAB4CC","#F0C5C3","#FBCEA0","#F1AE89","#F09771","#E3825C","#D46C49","#C55635","#B44021","#AF3D21")
+  xhs.sunset = c("#4D6097","#5F6FA7","#767FB5","#9594C4","#B7A5CD","#DAB4CC","#F0C5C3","#FBCEA0","#F1AE89","#F09771","#E3825C","#D46C49","#C55635","#B44021","#AF3D21"),
+  ggthemes.Zissou1Continuous = c("#3A9AB2FF", "#6FB2C1FF", "#91BAB6FF", "#A5C2A3FF", "#BDC881FF", "#DCCB4EFF", "#E3B710FF", "#E79805FF", "#EC7A05FF", "#EF5703FF", "#F11B00FF")
 )
 
 #' Color palette information
