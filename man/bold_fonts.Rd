@@ -2,17 +2,36 @@
 % Please edit documentation in R/theme_functions.R
 \name{bold_fonts}
 \alias{bold_fonts}
-\title{Title}
+\title{Apply bold fonts to theme elements}
 \usage{
-bold_fonts(face = "bold", title_size_ratio = 1.15, legend_text_face = "plain")
+bold_fonts(
+  base_size = 11,
+  base_face = "plain",
+  title_face = "bold",
+  subtitle_face = "plain",
+  axis_title_face = "bold",
+  axis_text_face = "plain",
+  legend_title_face = "bold",
+  legend_text_face = "plain"
+)
 }
 \arguments{
-\item{face}{fontface for all text}
+\item{base_size}{Base font size}
 
-\item{title_size_ratio}{relative size to original of all titles (plots, axis, legends, strips)}
+\item{base_face}{Base font face}
 
-\item{legend_face}{fontface for legend text}
+\item{title_face}{Title font face}
+
+\item{subtitle_face}{Subtitle font face}
+
+\item{axis_title_face}{Axis title font face}
+
+\item{axis_text_face}{Axis text font face}
+
+\item{legend_title_face}{Legend title font face}
+
+\item{legend_text_face}{Legend text font face}
 }
 \description{
-Title
+Apply bold fonts to theme elements
 }

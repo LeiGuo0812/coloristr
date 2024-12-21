@@ -8,16 +8,16 @@
 #' library(ggplot2)
 #' ggplot(mtcars, aes(wt, mpg, color = factor(cyl))) +
 #'   geom_point() +
-#'   scale_color_discrete_pal("friendly")
+#'   scale_color_discrete_cr("friendly")
 #'
 #' # Or use the full name
 #' ggplot(mtcars, aes(wt, mpg, color = factor(cyl))) +
 #'   geom_point() +
-#'   scale_color_discrete_pal("tidyplots.friendly")
-scale_color_discrete_pal <- function(palette_name = "tidyplots.friendly", reverse = FALSE, ...) {
+#'   scale_color_discrete_cr("tidyplots.friendly")
+scale_color_discrete_cr <- function(palette_name = "tidyplots.friendly", reverse = FALSE, ...) {
   tryCatch({
     ggplot2::discrete_scale(
-      "colour", paste0("pal_", palette_name),
+      "colour", paste0("cr_", palette_name),
       function(n) get_discrete_palette(palette_name, n, reverse),
       ...
     )
@@ -38,10 +38,10 @@ scale_color_discrete_pal <- function(palette_name = "tidyplots.friendly", revers
 #' @param reverse Logical, whether to reverse the palette
 #' @param ... Additional arguments passed to discrete_scale
 #' @export
-scale_fill_discrete_pal <- function(palette_name = "tidyplots.friendly", reverse = FALSE, ...) {
+scale_fill_discrete_cr <- function(palette_name = "tidyplots.friendly", reverse = FALSE, ...) {
   tryCatch({
     ggplot2::discrete_scale(
-      "fill", paste0("pal_", palette_name),
+      "fill", paste0("cr_", palette_name),
       function(n) get_discrete_palette(palette_name, n, reverse),
       ...
     )
@@ -62,7 +62,7 @@ scale_fill_discrete_pal <- function(palette_name = "tidyplots.friendly", reverse
 #' @param reverse Logical, whether to reverse the palette
 #' @param ... Additional arguments passed to scale_color_gradientn
 #' @export
-scale_color_continuous_pal <- function(palette_name = "tidyplots.inferno", reverse = FALSE, ...) {
+scale_color_continuous_cr <- function(palette_name = "tidyplots.inferno", reverse = FALSE, ...) {
   tryCatch({
     pal <- get_continuous_palette(palette_name, n = 256, reverse = reverse)
     ggplot2::scale_color_gradientn(colors = pal, ...)
@@ -83,7 +83,7 @@ scale_color_continuous_pal <- function(palette_name = "tidyplots.inferno", rever
 #' @param reverse Logical, whether to reverse the palette
 #' @param ... Additional arguments passed to scale_fill_gradientn
 #' @export
-scale_fill_continuous_pal <- function(palette_name = "tidyplots.inferno", reverse = FALSE, ...) {
+scale_fill_continuous_cr <- function(palette_name = "tidyplots.inferno", reverse = FALSE, ...) {
   tryCatch({
     pal <- get_continuous_palette(palette_name, n = 256, reverse = reverse)
     ggplot2::scale_fill_gradientn(colors = pal, ...)
@@ -105,7 +105,7 @@ scale_fill_continuous_pal <- function(palette_name = "tidyplots.inferno", revers
 #' @param reverse Logical, whether to reverse the palette
 #' @param ... Additional arguments passed to scale_color_gradientn
 #' @export
-scale_color_diverging_pal <- function(palette_name = "tidyplots.spectral", midpoint = 0, reverse = FALSE, ...) {
+scale_color_diverging_cr <- function(palette_name = "tidyplots.spectral", midpoint = 0, reverse = FALSE, ...) {
   tryCatch({
     pal <- get_diverging_palette(palette_name, n = 256, reverse = reverse)
     ggplot2::scale_color_gradientn(
@@ -131,7 +131,7 @@ scale_color_diverging_pal <- function(palette_name = "tidyplots.spectral", midpo
 #' @param reverse Logical, whether to reverse the palette
 #' @param ... Additional arguments passed to scale_fill_gradientn
 #' @export
-scale_fill_diverging_pal <- function(palette_name = "tidyplots.spectral", midpoint = 0, reverse = FALSE, ...) {
+scale_fill_diverging_cr <- function(palette_name = "tidyplots.spectral", midpoint = 0, reverse = FALSE, ...) {
   tryCatch({
     pal <- get_diverging_palette(palette_name, n = 256, reverse = reverse)
     ggplot2::scale_fill_gradientn(
