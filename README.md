@@ -27,5 +27,5 @@ library(ggplot2)
 mtcars |> 
   ggplot(aes(x = mpg, y = disp, color = factor(cyl))) +
   geom_point() +
-  scale_color_discrete_pal()
+  scale_color_discrete_cr()
 ```
