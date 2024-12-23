@@ -25,5 +25,8 @@ list_palettes()
 list_palettes(type = "discrete")
 
 # List palettes from a specific source
-list_palettes(source = "viridis")
+list_palettes(source = "tidyplots")
+
+# List discrete palettes from tidyplots
+list_palettes(source = "tidyplots", type = "discrete")
 }

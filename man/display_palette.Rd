@@ -4,22 +4,26 @@
 \alias{display_palette}
 \title{Display color palette}
 \usage{
-display_palette(palette_name, n = NULL)
+display_palette(palette_name, n = NULL, type = NULL)
 }
 \arguments{
 \item{palette_name}{Character, name of the palette (can be either "name" or "source.name" format)}
 
 \item{n}{Integer, number of colors to display (only for continuous and diverging palettes)}
+
+\item{type}{Character, optional palette type when source and name are not unique}
 }
 \description{
 Display color palette
 }
 \examples{
 # Show a discrete palette using either naming convention
-display_palette("friendly")
 display_palette("tidyplots.friendly")
+display_palette("friendly")
 
 # Show a continuous palette with 10 colors
-display_palette("viridis", n = 10)
-display_palette("tidyplots.viridis", n = 10)
+display_palette("tidyplots.friendly", n = 10, type = "continuous")
+
+# Show a diverging palette
+display_palette("tidyplots.friendly", type = "diverging")
 }
