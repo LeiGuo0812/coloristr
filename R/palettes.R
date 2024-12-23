@@ -18,6 +18,7 @@ discrete_palettes <- list(
   nature.vibrant = c("#0ddbf5","#1d9bf7","#8386fc","#303cf9","#fe5357","#fd7c1a","#ffbd15","#fcff07"),
   nature.patoral = c("#4292c9","#a0c9e5","#35a153","#afdd8b","#f26a11","#fe9376","#817cb9","#bcdddd"),
   nature.pastel = c("#F4B7B7", "#FFDAC8", "#FFF3D6", "#D6E7D6", "#D6E7F4","#187D79","#8560AF"),
+  nature.mb = c("#d62728","#FF847C","#F3BDA5","#F9D68D","#FDFD96","#B7E4C7","#5FC8D1","#AED9E0","#1f77b4","#7FBEEB","#B19CD9","#D8B4E2","#e377c2","#F89CAE","#E3A6AE","#E0E0E0"), # https://www.nature.com/articles/s41586-024-08216-z
   science.swallow = c("#B43665","#E58027","#EFB421","#6FA6CF"), # https://www.science.org/doi/10.1126/science.adj8766
   sxs.vintage  = c("#5D8CC2", "#F1BC3A", "#E7673A", "#50A07D", "#0D294E"),
   muke.collapse = c("#13366B","#043D45","#003D74","#0796B5","#4DA280","#406C94","#3E441C","#CC5D20","#E1C199","#FED0DA","#FE5E10","#F8C6B5","#CB9746","#E84F8C"),
