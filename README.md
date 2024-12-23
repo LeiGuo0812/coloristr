@@ -11,6 +11,7 @@ devtools::install_github("LeiGuo0812/coloristr")
 ```r
 library(coloristr)
 palette_info
+display_all_palettes('discrete')
 ```
 
 - Get palette colors
