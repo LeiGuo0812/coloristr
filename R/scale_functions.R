@@ -18,7 +18,7 @@ scale_color_discrete_cr <- function(palette_name = "tidyplots.friendly", reverse
   tryCatch({
     ggplot2::discrete_scale(
       "colour", paste0("cr_", palette_name),
-      function(n) get_discrete_palette(palette_name, n, reverse),
+      function(n) get_discrete_palette_cr(palette_name, n, reverse),
       ...
     )
   }, error = function(e) {
@@ -42,7 +42,7 @@ scale_fill_discrete_cr <- function(palette_name = "tidyplots.friendly", reverse 
   tryCatch({
     ggplot2::discrete_scale(
       "fill", paste0("cr_", palette_name),
-      function(n) get_discrete_palette(palette_name, n, reverse),
+      function(n) get_discrete_palette_cr(palette_name, n, reverse),
       ...
     )
   }, error = function(e) {
@@ -64,7 +64,7 @@ scale_fill_discrete_cr <- function(palette_name = "tidyplots.friendly", reverse 
 #' @export
 scale_color_continuous_cr <- function(palette_name = "tidyplots.inferno", reverse = FALSE, ...) {
   tryCatch({
-    pal <- get_continuous_palette(palette_name, n = 256, reverse = reverse)
+    pal <- get_continuous_palette_cr(palette_name, n = 256, reverse = reverse)
     ggplot2::scale_color_gradientn(colors = pal, ...)
   }, error = function(e) {
     if(grepl("Palette not found", e$message)) {
@@ -85,7 +85,7 @@ scale_color_continuous_cr <- function(palette_name = "tidyplots.inferno", revers
 #' @export
 scale_fill_continuous_cr <- function(palette_name = "tidyplots.inferno", reverse = FALSE, ...) {
   tryCatch({
-    pal <- get_continuous_palette(palette_name, n = 256, reverse = reverse)
+    pal <- get_continuous_palette_cr(palette_name, n = 256, reverse = reverse)
     ggplot2::scale_fill_gradientn(colors = pal, ...)
   }, error = function(e) {
     if(grepl("Palette not found", e$message)) {
@@ -107,7 +107,7 @@ scale_fill_continuous_cr <- function(palette_name = "tidyplots.inferno", reverse
 #' @export
 scale_color_diverging_cr <- function(palette_name = "tidyplots.spectral", midpoint = 0, reverse = FALSE, ...) {
   tryCatch({
-    pal <- get_diverging_palette(palette_name, n = 256, reverse = reverse)
+    pal <- get_diverging_palette_cr(palette_name, n = 256, reverse = reverse)
     ggplot2::scale_color_gradientn(
       colors = pal,
       values = scales::rescale(c(0, midpoint, 1)),
@@ -133,7 +133,7 @@ scale_color_diverging_cr <- function(palette_name = "tidyplots.spectral", midpoi
 #' @export
 scale_fill_diverging_cr <- function(palette_name = "tidyplots.spectral", midpoint = 0, reverse = FALSE, ...) {
   tryCatch({
-    pal <- get_diverging_palette(palette_name, n = 256, reverse = reverse)
+    pal <- get_diverging_palette_cr(palette_name, n = 256, reverse = reverse)
     ggplot2::scale_fill_gradientn(
       colors = pal,
       values = scales::rescale(c(0, midpoint, 1)),

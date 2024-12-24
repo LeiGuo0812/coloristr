@@ -134,7 +134,7 @@ display_all_palettes <- function(type = NULL, source = NULL, name = NULL, n = 7)
   }
 
   # Get filtered palette information
-  pal_info <- palette_info[, c("palette_name", "source", "name", "type", "n_colors", "colors")]
+  pal_info <- palette_info[, c("source", "name", "type", "n_colors", "colors")]
   
   if (!is.null(type)) {
     pal_info <- pal_info[pal_info$type == type, ]
@@ -175,9 +175,9 @@ display_all_palettes <- function(type = NULL, source = NULL, name = NULL, n = 7)
     # Create color rectangle plot
     plot_list[[i]] <- {
       p <- if(pal_type == "discrete") {
-        colors  # 对离散型配色，直接存储颜色向量
+        colors  # For discrete palettes, store color vector directly
       } else {
-        matrix(colors, nrow = 1)  # 对连续型配色，创建矩阵
+        matrix(colors, nrow = 1)  # For continuous palettes, create matrix
       }
       list(
         p = p,
@@ -212,20 +212,20 @@ display_all_palettes <- function(type = NULL, source = NULL, name = NULL, n = 7)
     
     # Plot colors
     if (pal_info$type[i] == "discrete") {
-      # 对离散型配色，绘制独立的色块
+      # For discrete palettes, draw individual color blocks
       colors <- unlist(pal_info$colors[i])
       n_colors <- length(colors)
       
       for (j in seq_len(n_colors)) {
         grid::grid.rect(
-          x = (j - 0.5) / n_colors * 0.8 + 0.1,  # 0.8是总宽度，0.1是左边距
-          width = 0.8 / n_colors * 0.9,  # 0.9是为了在色块之间留出小间距
+          x = (j - 0.5) / n_colors * 0.8 + 0.1,  # 0.8 is total width, 0.1 is left margin
+          width = 0.8 / n_colors * 0.9,  # 0.9 to leave small gaps between blocks
           height = 0.3,
-          gp = grid::gpar(fill = colors[j], col = NA)  # col = NA 移除边框
+          gp = grid::gpar(fill = colors[j], col = NA)  # col = NA removes border
         )
       }
     } else {
-      # 对连续型配色，使用原来的方式
+      # For continuous palettes, use original method
       grid::grid.raster(plot_list[[i]]$p, width = 0.8, height = 0.3)
     }
     grid::grid.text(

@@ -6,9 +6,9 @@
 #' @return Character vector of colors
 #' @export
 #' @examples
-#' get_discrete_palette("friendly", n = 4)
-#' get_discrete_palette("tidyplots.friendly", n = 4)
-get_discrete_palette <- function(palette_name, n = NULL, reverse = FALSE) {
+#' get_discrete_palette_cr("friendly", n = 4)
+#' get_discrete_palette_cr("tidyplots.friendly", n = 4)
+get_discrete_palette_cr <- function(palette_name, n = NULL, reverse = FALSE) {
   # Handle both naming conventions
   if (!grepl("\\.", palette_name)) {
     # If no source prefix, search by name
@@ -49,9 +49,9 @@ get_discrete_palette <- function(palette_name, n = NULL, reverse = FALSE) {
 #' @return Character vector of colors
 #' @export
 #' @examples
-#' get_continuous_palette("viridis", n = 100)
-#' get_continuous_palette("tidyplots.viridis", n = 100)
-get_continuous_palette <- function(palette_name, n = 100, reverse = FALSE) {
+#' get_continuous_palette_cr("viridis", n = 100)
+#' get_continuous_palette_cr("tidyplots.viridis", n = 100)
+get_continuous_palette_cr <- function(palette_name, n = 100, reverse = FALSE) {
   if (!grepl("\\.", palette_name)) {
     matched_row <- palette_info[palette_info$name == palette_name & palette_info$type == "continuous", ]
     if (nrow(matched_row) > 0) {
@@ -76,9 +76,9 @@ get_continuous_palette <- function(palette_name, n = 100, reverse = FALSE) {
 #' @return Character vector of colors
 #' @export
 #' @examples
-#' get_diverging_palette("spectral", n = 100)
-#' get_diverging_palette("tidyplots.spectral", n = 100)
-get_diverging_palette <- function(palette_name, n = 100, reverse = FALSE) {
+#' get_diverging_palette_cr("spectral", n = 100)
+#' get_diverging_palette_cr("tidyplots.spectral", n = 100)
+get_diverging_palette_cr <- function(palette_name, n = 100, reverse = FALSE) {
   if (!grepl("\\.", palette_name)) {
     matched_row <- palette_info[palette_info$name == palette_name & palette_info$type == "diverging", ]
     if (nrow(matched_row) > 0) {
