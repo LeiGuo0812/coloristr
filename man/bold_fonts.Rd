@@ -2,36 +2,24 @@
 % Please edit documentation in R/theme_functions.R
 \name{bold_fonts}
 \alias{bold_fonts}
-\title{Apply bold fonts to theme elements}
+\title{Apply bold fonts to theme elements for easier reading.}
 \usage{
-bold_fonts(
-  base_size = 11,
-  base_face = "plain",
-  title_face = "bold",
-  subtitle_face = "plain",
-  axis_title_face = "bold",
-  axis_text_face = "plain",
-  legend_title_face = "bold",
-  legend_text_face = "plain"
-)
+bold_fonts(face = "bold", title_size_ratio = 1.15, legend_text_face = "plain")
 }
 \arguments{
-\item{base_size}{Base font size}
+\item{face}{fontface for all text}
 
-\item{base_face}{Base font face}
+\item{title_size_ratio}{relative size to original of all titles (plots, axis, legends, strips)}
 
-\item{title_face}{Title font face}
-
-\item{subtitle_face}{Subtitle font face}
-
-\item{axis_title_face}{Axis title font face}
-
-\item{axis_text_face}{Axis text font face}
-
-\item{legend_title_face}{Legend title font face}
-
-\item{legend_text_face}{Legend text font face}
+\item{legend_text_face}{fontface for legend text}
 }
 \description{
-Apply bold fonts to theme elements
+Apply bold fonts to theme elements for easier reading.
+}
+\examples{
+library(ggplot2)
+mtcars |> 
+  ggplot(aes(x = disp, y = mpg)) +
+  geom_point() +
+  bold_fonts()
 }
