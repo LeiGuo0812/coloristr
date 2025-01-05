@@ -10,6 +10,7 @@ discrete_palettes <- list(
   tidyplots.metro = c("#4DACD6","#4FAE62","#F6C54D","#E37D46","#C02D45"),
   tidyplots.okabeito = c("#E69F00","#56B4E9","#009E73","#F0E442","#0072B2","#D55E00","#CC79A7"),
   tidyplots.seaside = c("#8ecae6","#219ebc","#023047","#ffb703","#fb8500"),
+  tidyplots.plasma = c("#0D0887","#501F80","#92377A","#D25172","#DD8B57","#E7C33C","#F3FB40"), # https://www.nature.com/articles/s41467-023-42737-x
   nature.cyclone = c("#D75425","#E6b532","#7E2f8C","#52BCEC","#A21D2F","#73AA43","#2B2A76"),
   nature.breeze = c("#E9212C","#01844F","#7195C5","#414986"),
   nature.breeze_light = c("#FCE8DD","#D2E7D4","#D0D8EB","#C2BDDB"),
@@ -19,7 +20,6 @@ discrete_palettes <- list(
   nature.patoral = c("#4292c9","#a0c9e5","#35a153","#afdd8b","#f26a11","#fe9376","#817cb9","#bcdddd"),
   nature.pastel = c("#F4B7B7", "#FFDAC8", "#FFF3D6", "#D6E7D6", "#D6E7F4","#187D79","#8560AF"),
   nature.mb = c("#d62728","#FF847C","#F3BDA5","#F9D68D","#FDFD96","#B7E4C7","#5FC8D1","#AED9E0","#1f77b4","#7FBEEB","#B19CD9","#D8B4E2","#e377c2","#F89CAE","#E3A6AE","#E0E0E0"), # https://www.nature.com/articles/s41586-024-08216-z
-  nature.biodiversity = c("#0D0887","#501F80","#92377A","#D25172","#DD8B57","#E7C33C","#F3FB40"), # https://www.nature.com/articles/s41467-023-42737-x
   science.swallow = c("#B43665","#E58027","#EFB421","#6FA6CF"), # https://www.science.org/doi/10.1126/science.adj8766
   cell.dopamine = c("#D43E4F","#FC8D58","#FFF58D","#97D492","#3186BC","#FFDBA1","#F65A6F","#7D1D67","#089292","#58A35A"), # https://www.cell.com/cell/fulltext/S0092-8674(24)01203-0#fig2
   sxs.vintage  = c("#5D8CC2", "#F1BC3A", "#E7673A", "#50A07D", "#0D294E"),
@@ -47,7 +47,6 @@ continuous_palettes <- list(
   xhs.sunset = c("#4D6097","#5F6FA7","#767FB5","#9594C4","#B7A5CD","#DAB4CC","#F0C5C3","#FBCEA0","#F1AE89","#F09771","#E3825C","#D46C49","#C55635","#B44021","#AF3D21"),
   ggthemes.Zissou1Continuous = c("#3A9AB2FF", "#6FB2C1FF", "#91BAB6FF", "#A5C2A3FF", "#BDC881FF", "#DCCB4EFF", "#E3B710FF", "#E79805FF", "#EC7A05FF", "#EF5703FF", "#F11B00FF"),
   nature.urban = c("#3D50A0","#4660A9","#4A6AB1","#3773B7","#237CB0","#14829B","#0F8E83","#3B9C67","#7FAF41","#BDC231","#FAD503","#FFCB04","#F8BD14","#F9B216","#F8A61B","#F29820","#E88923","#DC7C28","#D66F29","#C35A27","#AF4225","#9C2920","#86181B","#8B191D","#A0284C","#B64380","#C162A4","#C074AE","#C480B7","#CA90BD","#D2A5CB","#D6B3D5","#DBC2DD","#E3DAE8","#E5E5F3","#E7E8F3"),
-  nature.biodiversity = c("#0D0887","#501F80","#92377A","#D25172","#DD8B57","#E7C33C","#F3FB40"),
   python.shap = c("#0888F3","#0F84EE","#1680E9","#1D7CE5","#2478E0","#2B74DC","#3271D7","#396DD3","#4069CE","#4765CA","#4E61C5","#555DC1","#5C5ABC","#6356B8","#6A52B3","#714EAF","#784AAA","#7F46A6","#8743A1","#8E3F9D","#953B98","#9C3794","#A3338F","#AA2F8B","#B12C86","#B82882","#BF247D","#C62079","#CD1C74","#D41870","#DB156B","#E21167","#E90D62","#F0095E","#F70559","#FF0255")
 )
 
