@@ -19,12 +19,15 @@ discrete_palettes <- list(
   nature.patoral = c("#4292c9","#a0c9e5","#35a153","#afdd8b","#f26a11","#fe9376","#817cb9","#bcdddd"),
   nature.pastel = c("#F4B7B7", "#FFDAC8", "#FFF3D6", "#D6E7D6", "#D6E7F4","#187D79","#8560AF"),
   nature.mb = c("#d62728","#FF847C","#F3BDA5","#F9D68D","#FDFD96","#B7E4C7","#5FC8D1","#AED9E0","#1f77b4","#7FBEEB","#B19CD9","#D8B4E2","#e377c2","#F89CAE","#E3A6AE","#E0E0E0"), # https://www.nature.com/articles/s41586-024-08216-z
+  nature.biodiversity = c("#0D0887","#501F80","#92377A","#D25172","#DD8B57","#E7C33C","#F3FB40"), # https://www.nature.com/articles/s41467-023-42737-x
   science.swallow = c("#B43665","#E58027","#EFB421","#6FA6CF"), # https://www.science.org/doi/10.1126/science.adj8766
+  cell.dopamine = c("#D43E4F","#FC8D58","#FFF58D","#97D492","#3186BC","#FFDBA1","#F65A6F","#7D1D67","#089292","#58A35A"), # https://www.cell.com/cell/fulltext/S0092-8674(24)01203-0#fig2
   sxs.vintage  = c("#5D8CC2", "#F1BC3A", "#E7673A", "#50A07D", "#0D294E"),
   muke.collapse = c("#13366B","#043D45","#003D74","#0796B5","#4DA280","#406C94","#3E441C","#CC5D20","#E1C199","#FED0DA","#FE5E10","#F8C6B5","#CB9746","#E84F8C"),
   hdz.public = c("#003153","#002FA7","#008C8C","#81D8D0","#F9DC24","#E85827","#B05923","#8F4B28","#800020","#4C0009"),
   akun.ukiyo = c("#1F466F","#386795","#528FAC","#73BCD5","#ABDCE0","#FEE6B5","#FFD06E","#F8AA59","#EF8A46","#E86254"),
   xhs.sunset = c("#4D6097","#5F6FA7","#767FB5","#9594C4","#B7A5CD","#DAB4CC","#F0C5C3","#FBCEA0","#F1AE89","#F09771","#E3825C","#D46C49","#C55635","#B44021","#AF3D21"),
+  xhs.maritime = c("#2AA7DE","#25377F","#CA0E12","#F6BD21"),
   loyel.fc = c("#466D7C","#76894B","#D7D0AC","#DE9F37","#9C111D"),
   ggthemes.Jewel_Bright = c("#EB1E2CFF", "#FD6F30FF", "#F9A729FF", "#F9D23CFF", "#5FBB68FF", "#64CDCCFF", "#91DCEAFF", "#A4A4D5FF", "#BBC9E5FF"),
   ggthemes.Zissou1Continuous = c("#3A9AB2FF", "#6FB2C1FF", "#91BAB6FF", "#A5C2A3FF", "#BDC881FF", "#DCCB4EFF", "#E3B710FF", "#E79805FF", "#EC7A05FF", "#EF5703FF", "#F11B00FF")
@@ -44,6 +47,7 @@ continuous_palettes <- list(
   xhs.sunset = c("#4D6097","#5F6FA7","#767FB5","#9594C4","#B7A5CD","#DAB4CC","#F0C5C3","#FBCEA0","#F1AE89","#F09771","#E3825C","#D46C49","#C55635","#B44021","#AF3D21"),
   ggthemes.Zissou1Continuous = c("#3A9AB2FF", "#6FB2C1FF", "#91BAB6FF", "#A5C2A3FF", "#BDC881FF", "#DCCB4EFF", "#E3B710FF", "#E79805FF", "#EC7A05FF", "#EF5703FF", "#F11B00FF"),
   nature.urban = c("#3D50A0","#4660A9","#4A6AB1","#3773B7","#237CB0","#14829B","#0F8E83","#3B9C67","#7FAF41","#BDC231","#FAD503","#FFCB04","#F8BD14","#F9B216","#F8A61B","#F29820","#E88923","#DC7C28","#D66F29","#C35A27","#AF4225","#9C2920","#86181B","#8B191D","#A0284C","#B64380","#C162A4","#C074AE","#C480B7","#CA90BD","#D2A5CB","#D6B3D5","#DBC2DD","#E3DAE8","#E5E5F3","#E7E8F3"),
+  nature.biodiversity = c("#0D0887","#501F80","#92377A","#D25172","#DD8B57","#E7C33C","#F3FB40"),
   python.shap = c("#0888F3","#0F84EE","#1680E9","#1D7CE5","#2478E0","#2B74DC","#3271D7","#396DD3","#4069CE","#4765CA","#4E61C5","#555DC1","#5C5ABC","#6356B8","#6A52B3","#714EAF","#784AAA","#7F46A6","#8743A1","#8E3F9D","#953B98","#9C3794","#A3338F","#AA2F8B","#B12C86","#B82882","#BF247D","#C62079","#CD1C74","#D41870","#DB156B","#E21167","#E90D62","#F0095E","#F70559","#FF0255")
 )
 
