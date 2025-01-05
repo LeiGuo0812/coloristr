@@ -5,7 +5,7 @@
 \alias{discrete_palettes}
 \title{Color palettes and information}
 \format{
-An object of class \code{list} of length 26.
+An object of class \code{list} of length 29.
 }
 \usage{
 discrete_palettes

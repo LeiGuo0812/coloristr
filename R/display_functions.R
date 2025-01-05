@@ -228,8 +228,22 @@ display_all_palettes <- function(type = NULL, source = NULL, name = NULL, n = 7)
       # For continuous palettes, use original method
       grid::grid.raster(plot_list[[i]]$p, width = 0.8, height = 0.3)
     }
+    
+    # Construct display text to add color number information to discrete color palettes
+    display_text <- if(pal_info$type[i] == "discrete") {
+      paste0(
+        pal_info$source[i], ".", pal_info$name[i],
+        "\n(", pal_info$type[i], ", n=", pal_info$n_colors[i], ")"
+      )
+    } else {
+      paste0(
+        pal_info$source[i], ".", pal_info$name[i],
+        "\n(", pal_info$type[i], ")"
+      )
+    }
+    
     grid::grid.text(
-      plot_list[[i]]$name,
+      display_text,
       y = 0.2,
       gp = grid::gpar(fontsize = 8)
     )
