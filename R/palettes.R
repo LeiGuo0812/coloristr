@@ -11,7 +11,7 @@ discrete_palettes <- list(
   tidyplots.okabeito = c("#E69F00","#56B4E9","#009E73","#F0E442","#0072B2","#D55E00","#CC79A7"),
   tidyplots.seaside = c("#8ecae6","#219ebc","#023047","#ffb703","#fb8500"),
   tidyplots.plasma = c("#0D0887","#501F80","#92377A","#D25172","#DD8B57","#E7C33C","#F3FB40"), # https://www.nature.com/articles/s41467-023-42737-x
-  lovelyplots.colors5-light = c("#264653","#2A9D8F","#E9C46A","#F4A261","#E76F51"),
+  lovelyplots.colors5_light = c("#264653","#2A9D8F","#E9C46A","#F4A261","#E76F51"),
   lovelyplots.colors10 = c("#001219","#005F73","#0A9396","#94D2BD","#E9D8A6","#EE9B00","#CA6702","#BB3E03","#AE2012","#9B2226"),
   lovelyplots.colorsblind10 = c("#364B9A","#E8EFF6","#6EA5CD","#97CAE1","#C2E4EE","#EAECCC","#FEDA8A","#FDB366","#F67E4B","#DD3C2D"),
   nature.cyclone = c("#D75425","#E6b532","#7E2f8C","#52BCEC","#A21D2F","#73AA43","#2B2A76"),
