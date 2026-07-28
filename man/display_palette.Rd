@@ -13,6 +13,9 @@ display_palette(palette_name, n = NULL, type = NULL)
 
 \item{type}{Character, optional palette type when source and name are not unique}
 }
+\value{
+Invisibly, the character vector of displayed colors
+}
 \description{
 Display color palette
 }
@@ -22,8 +25,8 @@ display_palette("tidyplots.friendly")
 display_palette("friendly")
 
 # Show a continuous palette with 10 colors
-display_palette("tidyplots.friendly", n = 10, type = "continuous")
+display_palette("tidyplots.inferno", n = 10, type = "continuous")
 
 # Show a diverging palette
-display_palette("tidyplots.friendly", type = "diverging")
+display_palette("tidyplots.spectral", type = "diverging")
 }

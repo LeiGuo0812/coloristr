@@ -13,6 +13,9 @@ bold_fonts(face = "bold", title_size_ratio = 1.15, legend_text_face = "plain")
 
 \item{legend_text_face}{fontface for legend text}
 }
+\value{
+A ggplot2 theme object
+}
 \description{
 Apply bold fonts to theme elements for easier reading.
 }

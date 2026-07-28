@@ -17,6 +17,9 @@ scale_color_discrete_cr(
 
 \item{...}{Additional arguments passed to discrete_scale}
 }
+\value{
+A ggplot2 discrete color scale
+}
 \description{
 Scale color for discrete palettes
 }

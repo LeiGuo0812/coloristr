@@ -93,9 +93,9 @@ palette_info <- data.frame(
   )
 )
 
-# Add source and name columns by splitting the palette_name
-palette_info$source <- sapply(strsplit(palette_info$palette_name, "\\."), `[`, 1)
-palette_info$name <- sapply(strsplit(palette_info$palette_name, "\\."), `[`, 2)
+# Split on the first dot so future palette names may contain additional dots.
+palette_info$source <- sub("\\..*$", "", palette_info$palette_name)
+palette_info$name <- sub("^[^.]+\\.", "", palette_info$palette_name)
 palette_info$type <- c(
   rep("discrete", length(discrete_palettes)),
   rep("continuous", length(continuous_palettes)),

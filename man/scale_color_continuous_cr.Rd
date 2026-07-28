@@ -17,6 +17,9 @@ scale_color_continuous_cr(
 
 \item{...}{Additional arguments passed to scale_color_gradientn}
 }
+\value{
+A ggplot2 continuous color scale
+}
 \description{
 Scale color for continuous palettes
 }

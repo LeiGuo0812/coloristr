@@ -17,6 +17,9 @@ scale_fill_discrete_cr(
 
 \item{...}{Additional arguments passed to discrete_scale}
 }
+\value{
+A ggplot2 discrete fill scale
+}
 \description{
 Scale fill for discrete palettes
 }

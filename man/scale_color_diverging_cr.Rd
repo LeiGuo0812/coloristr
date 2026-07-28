@@ -20,6 +20,9 @@ scale_color_diverging_cr(
 
 \item{...}{Additional arguments passed to scale_color_gradientn}
 }
+\value{
+A ggplot2 diverging color scale
+}
 \description{
 Scale color for diverging palettes
 }

@@ -1,4 +1,4 @@
-# Convinent color and theme settings for ggplot2
+# Convenient color and theme settings for ggplot2
 The color palettes are mainly from [tidyplots package](https://github.com/jbengler/tidyplots/). 
 
 ## Install
@@ -16,7 +16,7 @@ display_all_palettes('discrete')
 
 - Get palette colors
 ```r
-get_continuous_palette('viridis')
+get_continuous_palette_cr("viridis")
 ```
 
 - Applying color palettes

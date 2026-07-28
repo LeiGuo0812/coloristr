@@ -16,7 +16,7 @@ display_all_palettes(type = NULL, source = NULL, name = NULL, n = 7)
 \item{n}{Integer, number of colors to display for continuous and diverging palettes (default: 7)}
 }
 \value{
-Creates a grid display of color palettes in the current graphics device
+Invisibly, the filtered palette information
 }
 \description{
 Display all available color palettes in a grid layout

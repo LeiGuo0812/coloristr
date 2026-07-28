@@ -17,6 +17,9 @@ scale_fill_continuous_cr(
 
 \item{...}{Additional arguments passed to scale_fill_gradientn}
 }
+\value{
+A ggplot2 continuous fill scale
+}
 \description{
 Scale fill for continuous palettes
 }
